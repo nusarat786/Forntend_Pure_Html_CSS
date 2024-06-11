@@ -841,7 +841,8 @@ input , textarea{
     }
 
     .section-contact--homepage {
-        min-height: 48rem;
+        min-height: 38rem;
+        width: 65%;
     }
 
   
