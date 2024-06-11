@@ -761,6 +761,8 @@ input , textarea{
         grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     }
 
+    
+
     .section-choose{
         & .choose-center--div{
             & figure::before{
@@ -800,6 +802,10 @@ input , textarea{
 
 
 @media (width <=998px){
+
+    .section-blog .grid-four--cols{
+        grid-template-columns: repeat(2,1fr);
+    }
 
     .section-hero {
 
@@ -854,6 +860,10 @@ input , textarea{
 
 
     .grid-two--cols,.grid-three--cols,.grid-four--cols ,.grid-four--cols{
+        grid-template-columns: 1fr;
+    }
+
+    .section-blog .grid-four--cols{
         grid-template-columns: 1fr;
     }
 
